@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: World_population
+    database: dbt-assignment-414111
+    schema: World_population
+    tables:
+      - name: countries
+      - name: Population
+
+
